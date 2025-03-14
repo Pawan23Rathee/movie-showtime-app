@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Categories = () => {
   return (
-    <div className="w-full bg-gray-100 h-[290px] pt-14">
+    <div className="w-full bg-gray-100 h-[290px] pt-14 mt-6">
       {/* White Box with Full Width */}
       <div className="bg-white p-6 rounded-lg shadow-md w-full mt-0">
         <h2 className="text-2xl font-semibold text-black mb-4">Categories</h2>
