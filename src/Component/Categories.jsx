@@ -9,7 +9,8 @@ const Categories = () => {
         <h2 className="text-2xl font-semibold text-black mb-4">Categories</h2>
 
         {/* Main Categories Section */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
+
         <Link to="/movies" className="text-black text-lg hover:text-blue-500 transition">
   🎬 Movies
 </Link>
