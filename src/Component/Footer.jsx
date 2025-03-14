@@ -4,17 +4,17 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white text-sm mt-10">
       {/* Top Section */}
-      <div className="flex justify-between items-center px-10 py-4 border-b border-gray-700">
-        <button className="bg-red-500 px-4 py-2 rounded text-white">Contact today!</button>
-        <div className="flex space-x-10">
-          <p>24/7 Customer Care</p>
-          <p>Resend Booking Confirmation</p>
+      <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-10 py-4 border-b border-gray-700 text-center md:text-left">
+        <button className="bg-red-500 px-4 py-2 rounded text-white mb-2 md:mb-0">Contact today!</button>
+        <div className="flex flex-col md:flex-row md:space-x-10">
+          <p className="mb-1 md:mb-0">24/7 Customer Care</p>
+          <p className="mb-1 md:mb-0">Resend Booking Confirmation</p>
           <p>Subscribe to the Newsletter</p>
         </div>
       </div>
 
       {/* Middle Section */}
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 px-10 py-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 px-6 md:px-10 py-8 text-center md:text-left">
         <div>
           <h3 className="font-semibold mb-2">Movies Now Showing</h3>
           <p>Chhaava | Crazyx | Mickey 17 | Mere Husband Ki Biwi</p>
@@ -38,14 +38,14 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-gray-800 px-10 py-4 flex flex-col md:flex-row justify-between">
-        <div>
+      <div className="bg-gray-800 px-6 md:px-10 py-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+        <div className="mb-2 md:mb-0">
           <h3 className="font-semibold">Help</h3>
           <p>About Us | Contact | Terms & Conditions</p>
         </div>
-        <div>
+        <div className="mb-2 md:mb-0">
           <h3 className="font-semibold">Follow Us</h3>
-          <div className="flex space-x-4">
+          <div className="flex justify-center md:justify-start space-x-4">
             <span>📘</span>
             <span>📷</span>
             <span>🐦</span>
