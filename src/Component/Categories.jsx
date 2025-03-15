@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Categories = () => {
   return (
-    <div className="w-full bg-white pt-14 mt-10 flex justify-center">
+    <div className="w-full bg-white pt-14 mt-12 flex justify-center">
       {/* White Box with Full Width */}
       <div className="bg-white p-8 rounded-lg shadow-md w-11/12 max-w-5xl">
         <h2 className="text-2xl font-semibold text-black mb-6 text-center">Categories</h2>
