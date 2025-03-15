@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 
 const Categories = () => {
   return (
-    <div className="w-full bg-gray-100 pt-14 mt-6">
+    <div className="w-full bg-white pt-14 mt-10 flex justify-center">
       {/* White Box with Full Width */}
-      <div className="bg-white p-6 rounded-lg shadow-md w-full">
-        <h2 className="text-2xl font-semibold text-black mb-4">Categories</h2>
+      <div className="bg-white p-8 rounded-lg shadow-md w-11/12 max-w-5xl">
+        <h2 className="text-2xl font-semibold text-black mb-6 text-center">Categories</h2>
 
         {/* Main Categories Section */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6 text-center">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8 text-center">
           <Link to="/movies" className="w-full flex justify-center items-center text-black text-lg hover:text-blue-500 transition">
             🎬 Movies
           </Link>
@@ -19,21 +19,15 @@ const Categories = () => {
           <Link to="/events" className="w-full flex justify-center items-center text-black text-lg hover:text-blue-500 transition">
             🎭 Events
           </Link>
-          <Link to="/plays" className="w-full flex justify-center items-center text-black text-lg hover:text-blue-500 transition">
-            🎭 Plays
-          </Link>
           <Link to="/sports" className="w-full flex justify-center items-center text-black text-lg hover:text-blue-500 transition">
             ⚽ Sports
           </Link>
-          <Link to="/activities" className="w-full flex justify-center items-center text-black text-lg hover:text-blue-500 transition">
-            🎨 Activities
-          </Link>
         </div>
 
-        {/* Corporate Offers & Gift Cards */}
-        <div className="border-t border-gray-300 pt-4">
-          <h3 className="text-xl font-semibold text-black mb-3">More Options</h3>
-          <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
+        {/* More Options Section */}
+        <div className="border-t border-gray-300 pt-6">
+          <h3 className="text-xl font-semibold text-black mb-4 text-center">More Options</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-center">
             <Link to="/corporate-offers" className="w-full flex justify-center items-center text-black text-lg hover:text-blue-500 transition">
               💼 Corporate Offers
             </Link>
