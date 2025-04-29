@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useNavigate, Route, Routes } from "react-router-dom";
+import { useNavigate, Route, Routes } from "react-router-dom"; // make sure useNavigate is imported
 import Navbar from "./Component/Navbar";
 import Categories from "./Component/Categories";
 import Movies from "./Pages/Movies";
